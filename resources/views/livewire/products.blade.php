@@ -16,7 +16,6 @@
                 <th>Name</th>
                 <th>Price</th>
                 <th>Quantity</th>
-                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -26,10 +25,6 @@
                     <td>{{ $product->name }}</td>
                     <td>{{ $product->price }}$</td>
                     <td>{{ $product->quantity }}</td>
-                    <td>
-                        
-                        <a href="{{route('checkout',$product->id)}}" class="btn btn-sm btn-warning">Buy</a></td>
-                    
                 </tr>
             @endforeach
 
