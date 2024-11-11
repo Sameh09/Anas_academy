@@ -10,7 +10,5 @@ please execute the following commands after cloning project:-
     <li>php artisan serve</li>
 </ol>
 <hr>
-<h3>Then you can login with these credentials :- </h3><br>
-E-Mail  : email@example.com <br>
-Password: 12345678
+<h3>Notice : i used jwt to implement api actions using postman </h3><br>
 </p>
