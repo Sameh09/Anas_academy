@@ -12,3 +12,6 @@ please execute the following commands after cloning project:-
 <hr>
 <h3>Notice : i used jwt to implement api actions using postman </h3><br>
 </p>
+<hr>
+<h3>I Didn't have much time to figure out how stripe work , so i couldn't implement it correctly in time , but i'm working on it </h3>
+<h5>thank you in advance for your time</h5>
