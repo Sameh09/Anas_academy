@@ -5,7 +5,6 @@ please execute the following commands after cloning project:-
     <li>composer install</li>
     <li>copy .env.example .env</li>
     <li>php artisan migrate</li>
-    <li>php artisan migrate</li>
     <li>php artisan db:seed</li>
     <li>php artisan jwt:secret</li>
     <li>php artisan serve</li>
