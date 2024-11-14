@@ -23,7 +23,7 @@ class CreateProduct extends Component
         $this->reset('name','price','quantity');
         $this->dispatch('close-modal');
         $this->dispatch('product-created');
-
+    
     }
 
     public function render()

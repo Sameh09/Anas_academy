@@ -16,9 +16,6 @@ return new class extends Migration
             $table->integer('product_id');
             $table->integer('quantity');
             $table->float('total_amount');
-            $table->string('card_number');
-            $table->tinyInteger('cvc');
-            $table->string('expiration_date');
             $table->string('status');
             $table->timestamps();
         });
