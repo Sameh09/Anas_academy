@@ -43,8 +43,9 @@ class StripeController extends Controller
                     'price_data' => [
                         'currency' => 'SAR',
                         'product_data' => [
-                            'name' => 'T-shirt',
+                            'name' => $product->name,
                             'description' => $product->name,
+                            //i added image field for testing purposes only 
                             'images' => ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdUHDpwKNvV5F9ombsGeKv-gNUnJ1OdNUy6A&s']
                         ],
                         'unit_amount' => 100 * $product->price,
