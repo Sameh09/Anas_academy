@@ -16,6 +16,7 @@
                 <th>Name</th>
                 <th>Price</th>
                 <th>Quantity</th>
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -23,8 +24,14 @@
                 <tr>
                     <td>{{ $product->id }}</td>
                     <td>{{ $product->name }}</td>
-                    <td>{{ $product->price }}$</td>
+                    <td><button disabled class="btn btn-sm btn-primary"><b>{{ $product->price }} SAR</b></button></td>
                     <td>{{ $product->quantity }}</td>
+                    <td>
+                        <form action="{{route('pay',$product->id)}}" method="POST">
+                            @csrf
+                            <button class="btn btn-warning btn-sm">Buy</button>
+                        </form>
+                        </td>
                 </tr>
             @endforeach
 
